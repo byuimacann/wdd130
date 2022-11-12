@@ -235,12 +235,14 @@ footer .social img {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     padding: 50px;
+    margin-top: 50px;
 }
 
 .rivers-title {
     font-family: 'Racing Sans One', 'Bradley Hand', sans-serif;
     color:#f8be37;
     text-align: center;
+    padding-top: 50px;
 }
 
 h3 {
