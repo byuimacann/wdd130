@@ -232,7 +232,7 @@ footer {
 }
 
 .flavor-box2 {
-   padding-left: 100px; 
+    padding-left: 100px; 
 }
 
 .cupcake-images {
@@ -263,7 +263,7 @@ footer {
 .overlay {
     position: absolute;
     bottom: 20%;
-    background: rgba(178, 218, 221, .75);
+    background: rgba(178, 218, 221, .80);
     color: black;
     width: 100%;
     transition: .5s ease;
@@ -302,7 +302,11 @@ footer {
     font-size: 32px;
     background-color: #fd708b;
     border: none;
+    box-shadow: 1px 1px 4px gray;
 }
+
+
+/*Pies Page CSS*/
 
 
 
@@ -315,14 +319,30 @@ footer {
         height: auto;
     }
 
-    nav {
+    /*nav {
         display: block;
         height: auto;
         text-align: center;
+    }*/
+
+    header {
+        text-align: center;
+    }
+
+    .logo {
+        margin-right: 60px;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 75%;
     }
 
     nav a {
-        margin-left: 30px;
+        padding: 0px 70px;
+        margin-left: -100px;
     }
 
     footer {
@@ -343,6 +363,49 @@ footer {
         margin: 0 auto;
         margin-bottom: 25px;
     }
+    
+    .intro-box {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .flavor-box2 {
+        padding-left: 55px;
+        margin-top: -55px;
+    }
+
+    .cakes-circle {
+        margin: 50px auto 0px auto;  
+    }
+
+    #cakes-grid {
+        display: block;
+    }
+
+    #flavors {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .flavors-heading {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .flavors-msg {
+        padding-left: 20px;
+        width: 90%;
+    }
+
+    .cupcake-images {
+        width: 50%;
+        margin: 50px auto;
+        padding-right: 60px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
     
 }
 
