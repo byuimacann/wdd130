@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Cakery Creations | Cakes</title>
 </head>
+
 <body>
     <div id="content">
         <header>
@@ -16,8 +19,7 @@
                 <a href="index.html">Home</a>
                 <a href="cakes.html">Cakes</a>
                 <a href="pies.html">Pies</a>
-                <a href="order-online.html">Order Online</a>
-            </nav>    
+            </nav>
         </header>
         <div id="hero">
             <div id="hero-box2">
@@ -27,61 +29,87 @@
                 <div class="cakes-circle">
                     <h1 class="cakes-title">Cakes</h1>
                 </div>
-                <p class="cakes-intro">
-                    Whether you are looking for something sweet to celebrate a special occasion or a special someone, we are here for you. Our cakes and cupcakes are made fresh from our bakery each morning. We have several different flavor options to appease the pickiest of pallets. Choose from our tried-and-true menu items or mix-and-match to create your own cakey concoction. Whether you need a cake to feed a crowd or just want a single cupcake to enjoy, we have got you covered.
-                </p>
-            </section>
-        </div>    
-        <main>
-            <section id="flavors">
-                <h1 class="flavors-heading">
-                    Flavors
-                </h1>
-                <p class="flavors-msg">
-                    Our everyday flavors options include:
-                </p>
-                <div id="flavors-list">
-                    <ul class="list1">
-                        <li>vanilla</li>
-                        <li>chocolate</li>
-                        <li>red velvet</li>
-                        <li>orange</li>
-                        <li>strawberry</li>
-                        <li>cotton candy</li>
-                        <li>lemon</li>
-                        <li>raspberry</li>
-                        <li>almond</li>
-                        <li>blueberry</li>  
-                    </ul>
-                    <ul class="list2">
-                        <li>lime</li>
-                        <li>banana</li>
-                        <li>coconut</li>
-                        <li>cookie & cream</li>
-                        <li>carrot</li>
-                        <li>s'mores</li>
-                        <li>guava</li>
-                        <li>watermelon</li>
-                        <li>s'mores</li> 
-                        <li>mint chocolate</li>
-                    </ul>
+                <div class="intro-box">
+                    <p class="cakes-intro">
+                        Whether you are looking for something sweet to celebrate a special occasion or a special
+                        someone, we are here for you. Our cakes and cupcakes are made fresh from our bakery each
+                        morning. <br> We have several different flavor options to appease the pickiest of pallets. <br>
+                        Choose from our tried-and-true menu items or mix-and-match to create your own cakey concoction.
+                        Whether you need a cake to feed a crowd or just want a single cupcake to enjoy, we have got you
+                        covered.
+                    </p>
                 </div>
             </section>
-            <div class="cupcake-images">
-                <img src="images/luisana-zerpa-MJPr6nOdppw-unsplash.jpg" alt="red velvet cupcake image">
-                <img src="images/mike-meeks-zk-fclJdGas-unsplash.jpg" alt="chocolate cupcake image">
-                <img src="images/meritt-thomas-Ao09kk2ovB0-unsplash.jpg" alt="mint cupcake image">
-            </div> 
-            <div class="seasonal-textbox">    
+        </div>
+        <div id="main">
+            <div id="cakes-grid">
+                <section id="flavors">
+                    <h1 class="flavors-heading">
+                        Flavors
+                    </h1>
+                    <p class="flavors-msg">
+                        Our everyday flavors options include:
+                    </p>
+                    <div id="flavors-list">
+                        <div class="flavor-box1">
+                            <ul class="list1">
+                                <li>vanilla</li>
+                                <li>chocolate</li>
+                                <li>red velvet</li>
+                                <li>orange</li>
+                                <li>strawberry</li>
+                                <li>cotton candy</li>
+                                <li>lemon</li>
+                                <li>raspberry</li>
+                                <li>almond</li>
+                                <li>blueberry</li>
+                            </ul>
+                        </div>
+                        <div class="flavor-box2">
+                            <ul class="list2">
+                                <li>lime</li>
+                                <li>banana</li>
+                                <li>coconut</li>
+                                <li>cookie & cream</li>
+                                <li>carrot</li>
+                                <li>s'mores</li>
+                                <li>guava</li>
+                                <li>watermelon</li>
+                                <li>s'mores</li>
+                                <li>mint chocolate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <div class="cupcake-images">
+                    <div class="container">
+                        <img class="red-velvet" src="images/luisana-zerpa-MJPr6nOdppw-unsplash.jpg"
+                            alt="red velvet cupcake image">
+                        <div class="overlay">Red Velvet</div>
+                    </div>
+                    <div class="container">
+                        <img class="chocolate" src="images/mike-meeks-zk-fclJdGas-unsplash.jpg"
+                            alt="chocolate cupcake image">
+                        <div class="overlay">Chocolate</div>
+                    </div>
+                    <div class="container">
+                        <img class="mint" src="images/meritt-thomas-Ao09kk2ovB0-unsplash.jpg" alt="mint cupcake image">
+                        <div class="overlay">Mint Chocolate</div>
+                    </div>
+                </div>
+            </div>
+            <div class="seasonal-textbox">
                 <p class="seasonal-msg">
-                        Seasonal favorite are available for limited times throughout the year. Make sure you check back often so you don't miss out on any of the yumminess! 
+                    Seasonal favorite are available for limited times throughout the year. <br> Make sure you check back
+                    often so you don't miss out on any of the yumminess!
                 </p>
             </div>
-            <button class="cakes-button" type="submit">ORDER NOW</button>
-        </main>    
+            <div class="button-box">
+                <button class="cakes-button" type="submit">ORDER NOW</button>
+            </div>
+        </div>
         <footer>
             <p>Cakery Creation &copy; 2022</p>
-            <a id="site-plan" href="site-plan.html">Site Plan</a>
             <div class="social-media">
                 <a class="facebook" href="https://facebook.com" target="blank">
                     <img src="images/facebook.png" alt="facebook logo">
@@ -93,8 +121,9 @@
                     <img src="images/instagram.png" alt="instragram logo">
                 </a>
             </div>
-            <a href="contact-us.html">Contact Us Today</a>
+            <a id="site-plan" href="site-plan.html">Site Plan</a>
         </footer>
     </div>
 </body>
+
 </html>
