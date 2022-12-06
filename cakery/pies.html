@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Cakery Creations | Pies</title>
 </head>
 <body>
@@ -16,8 +17,7 @@
                 <a href="index.html">Home</a>
                 <a href="cakes.html">Cakes</a>
                 <a href="pies.html">Pies</a>
-                <a href="order-online.html">Order Online</a>
-            </nav>    
+            </nav>
         </header>
         <div id="hero">
             <div id="hero-box3">
@@ -27,56 +27,76 @@
                 <div class="pies-circle">
                     <h1 class="pies-title">Pies</h1>
                 </div>
-                <p class="pies-intro">
-                    Oh my...so much pie! We pride ourselves on our scrumptuous pies made from scratch each morning and baked with fresh, top-quality ingredients with you in mind. Come delight in a warm slice of pie a la mode or purchase a whole pie to share with family and friends. Make yourself and your mouth happy...you just can't beat down-home goodness and flavor...Yum!
-                </p>
-            </section>
-        </div>    
-        <main>
-            <section id="flavors1">
-                <h1 class="flavors-heading1">
-                    Flavors
-                </h1>
-                <p class="flavors-msg1">
-                    Our everyday flavors include:
-                </p>
-                <div id="flavors-list1">
-                    <ul class="list1">
-                        <li>peach</li>
-                        <li>pear</li>
-                        <li>dutch apple</li>
-                        <li>cherry</li>
-                        <li>blueberry</li>
-                        <li>3 berry</li>
-                        <li>raspberry rhubarb</li>
-                    </ul>
-                    <ul class="list2">
-                        <li>banana cream</li>
-                        <li>french silk</li>
-                        <li>coconut cream</li>
-                        <li>key lime</li>
-                        <li>peanut butter</li>
-                        <li>strawberry</li>
-                        <li>lemon cream</li>
-                    </ul>
+                <div class="intro-box1">
+                    <p class="pies-intro">
+                        Oh my...so much pie! We pride ourselves on our scrumptuous pies made from scratch each morning and baked with fresh, top-quality ingredients with you in mind. <br>
+                        <br>
+                        Come delight in a warm slice of pie a la mode or purchase a whole pie to share with family and friends. Make yourself and your mouth happy...you just can't beat down-home goodness and flavor...Yum!
+                    </p>
                 </div>
             </section>
-            <div class="pie-images">
-                <img src="images/deborah-rainford-yISrQEZjF8s-unsplash.jpg" alt="apple pie image">
-                <img src="images/raphael-maksian-vPedCtyqArw-unsplash.jpg" alt="blueberry pie image">
-                <img src="images/jodie-morgan-AmbMt2PrCAY-unsplash.jpg" alt="strawberry pie image">
-            </div> 
+        </div>    
+        <div id="main">
+            <div id="pies-grid">
+                <section id="flavors1">
+                    <h1 class="flavors-heading">
+                    Flavors
+                    </h1>
+                    <p class="flavors-msg">
+                    Our everyday flavors include:
+                    </p>
+                    <div id="flavors-list">
+                        <div class="flavor-box1">
+                            <ul class="list1">
+                                <li>peach</li>
+                                <li>pear</li>
+                                <li>dutch apple</li>
+                                <li>cherry</li>
+                                <li>blueberry</li>
+                                <li>3 berry</li>
+                                <li>raspberry rhubarb</li>
+                            </ul>
+                        </div>
+                        <div class="flavor-box2">
+                            <ul class="list3">
+                                <li>banana cream</li>
+                                <li>french silk</li>
+                                <li>coconut cream</li>
+                                <li>key lime</li>
+                                <li>peanut butter</li>
+                                <li>strawberry</li>
+                                <li>lemon cream</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <div class="pies-images">
+                    <div class="container1">
+                        <img class="apple" src="images/deborah-rainford-yISrQEZjF8s-unsplash.jpg" alt="apple pie image">
+                        <div class="overlay1">Dutch Apple</div>
+                    </div>
+                    <div class="container1">
+                        <img class="blueberry" src="images/raphael-maksian-vPedCtyqArw-unsplash.jpg" alt="blueberry pie image">
+                        <div class="overlay1">Blueberry</div>
+                    </div>
+                    <div class="container1">
+                        <img class="strawberry" src="images/jodie-morgan-AmbMt2PrCAY-unsplash.jpg" alt="strawberry pie image">
+                        <div class="overlay1">Strawberry</div>
+                    </div>  
+                </div> 
+            </div>
             <div class="seasonal-textbox">    
                 <p class="seasonal-msg">
-                     Make sure you check back during the holiday season to order your seasonal favorites including pumpkin and pecan.<br> 
-                     We 'pied' ourselves on making the holiday season that much warmer for you and yours. 
+                    Make sure you check back during the holiday season to order your seasonal favorites including pumpkin and pecan.<br> 
+                    We 'pied' ourselves on making the holiday season that much warmer for you and yours. 
                 </p>
             </div>
-            <button class="pies-button"        type="submit">ORDER NOW</button>
-        </main>    
+            <div class="button-box">
+                <button class="pies-button"        type="submit">ORDER NOW</button>
+            </div>
+        </div>    
         <footer>
-            <p>Cakery Creation &copy; 2022</p>
-            <a id="site-plan" href="site-plan.html">Site Plan</a>
+            <p>Cakery Creations &copy; 2022</p>
             <div class="social-media">
                 <a class="facebook" href="https://facebook.com" target="blank">
                     <img src="images/facebook.png" alt="facebook logo">
@@ -88,7 +108,7 @@
                     <img src="images/instagram.png" alt="instragram logo">
                 </a>
             </div>
-            <a href="contact-us.html">Contact Us Today</a>
+            <a id="site-plan" href="site-plan.html">Site Plan</a>
         </footer>
     </div>
 </body>
