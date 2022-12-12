@@ -6,17 +6,15 @@
 }
 
 header {
-    background-color: #fd708b;  
-}
-
-header a {
-   margin-top: -90px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #fd708b; 
 }
 
 nav {
     display: flex;
     justify-content: center;
-    padding-left: 100px;
+    align-items: center;
 }
 
 nav a {
@@ -24,8 +22,8 @@ nav a {
     text-decoration: none;
     font-family: 'Life Savers', Garamond, serif;
     font-size: 1.3em;
-    padding-left: 30px;
-    padding-right: 170px;
+    padding: 40px;
+    margin: 0px 130px 0px 0px;
 }
 
 nav a:hover {
@@ -125,11 +123,12 @@ footer {
     padding: 50px 0px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;  
 }
 
+
 .social-media {
-    margin-right: 155px;
+    margin-right: 165px;
 }
 
 #site-plan {
@@ -449,15 +448,12 @@ footer {
     }
 
     nav {
-        display: block;
         text-align: center;
-        margin: 0 auto;
-        width: 75%;
     }
 
     nav a {
-        padding: 0px 70px;
-        margin-left: -100px;
+        padding: 10px 25px;
+        margin: 0px;
     }
 
     #hero-msg {
@@ -473,6 +469,10 @@ footer {
         width: 340px;
         text-align: center;
         margin-left: -15px;
+    }
+
+    header {
+        display: block;
     }
 
     footer {
